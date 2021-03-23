@@ -9,7 +9,6 @@
     "server": "nodemon -w server.py -e python server.py",
     "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "apt-get install python-pip && pip install Flask",
     "heroku-postbuild": "npm install && npm start && pip install Flask"
   },
   "author": "",
