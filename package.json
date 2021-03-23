@@ -29,4 +29,5 @@
   "dependencies": {
     "phaser-ce": "^2.13.3"
   }
+  "heroku-postbuild": "npm install && npm start"
 }
