@@ -9,6 +9,7 @@
     "server": "nodemon -w server.py -e python server.py",
     "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-postbuild": "npm install && npm start"
   },
   "author": "",
   "license": "ISC",
@@ -29,5 +30,4 @@
   "dependencies": {
     "phaser-ce": "^2.13.3"
   }
-  "heroku-postbuild": "npm install && npm start"
 }
