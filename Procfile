@@ -1,1 +1,1 @@
-web: gunicorn $(HOST):$(PORT) app:app
+web: npm start
