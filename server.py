@@ -90,4 +90,4 @@ def bloch(format='png'):
   return send_figure(fig,format)
 
 if __name__ == "__main__":
-  app.run()
+  app.run(port=$PORT)
