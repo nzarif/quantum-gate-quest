@@ -8,6 +8,7 @@
     "start": "concurrently -c \"blue,red\" \"npm:server\" \"npm:webpack\"",
     "server": "nodemon -w server.py -e python server.py",
     "webpack": "webpack",
+    "postbuild": "npm build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
