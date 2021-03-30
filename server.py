@@ -93,5 +93,5 @@ if __name__ == "__main__":
   port = int(os.getenv('PORT', 5000))
   print(port)
   app.is_live = True
-  #app.run(ssl_context='adhoc', debug=True)
-  app.run(host='0.0.0.0', port='5000')
+  app.run(ssl_context='adhoc', debug=True)
+  #app.run(host='0.0.0.0', port='5000')
